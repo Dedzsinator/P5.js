@@ -1,0 +1,28 @@
+/*style a the a tags as blocks in the middle of the screen
+*/
+a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-size: 2em;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #000;
+}
+
+/*put smooth hover effect*/
+a:hover {
+    background-color: #3e3e3e;
+    color: #fff;
+    transition: 0.7s;
+}
+
+ul {
+    list-style-type: none;
+}
